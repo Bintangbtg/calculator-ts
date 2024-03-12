@@ -1,0 +1,19 @@
+{
+  "name": "belejar-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "rd /s /q build && tsc",
+    "ts": "rd /s /q build && tsc -w",
+    "dev": "nodemon ./build/calculator.js"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.0",
+    "readline": "^1.3.0",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.26"
+  }
+}
